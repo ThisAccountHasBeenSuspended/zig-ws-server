@@ -1,0 +1,20 @@
+.{
+    .name = "ws-server",
+    .version = "0.6.1",
+    .minimum_zig_version = "0.12.0",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "LICENSE",
+
+        "README.md",
+        "CHANGELOG.md",
+
+        "build.zig",
+        "build.zig.zon",
+
+        "src",
+        "examples",
+    },
+}
